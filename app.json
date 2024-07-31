@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "WweCardGame",
+    "slug": "WweCardGame",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/WweLogo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.apsalsyed.WweCardGame"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.apsalsyed.WweCardGame"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/WweLogo.png"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "e5aa190d-973a-416a-a7f0-a48cc690e988"
+      }
+    }
+  }
+}
